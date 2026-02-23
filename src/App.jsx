@@ -27,7 +27,7 @@ function App() {
         <Route path="/undang-undang" element={<PusatLegislasi />} />
         <Route path="/tindak-lanjut" element={<TindakLanjutAspirasi />} />
         <Route path="/struktur-komisi" element={<StrukturKomisi />} />
-        <Route path="/aboutUs" element={<TentangKami />} />
+        <Route path="/tentang-kami" element={<TentangKami />} />
         <Route path="/badan-anggaran" element={<BadanAnggaran />} />
         <Route path="/lapor" element={<Lapor />} />
       </Routes>

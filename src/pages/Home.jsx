@@ -23,7 +23,7 @@ const PantauDPMKM = () => {
             Portal Informasi Pengawasan DPMKM Universitas Negeri Semarang. Mewujudkan birokrasi yang transparan, akuntabel, dan melayani mahasiswa.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <a className="bg-gray-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-gray-800 transition-all flex items-center gap-2 shadow-lg" href="#/aboutUs">
+            <a className="bg-gray-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-gray-800 transition-all flex items-center gap-2 shadow-lg" href="#/tentang-kami">
               Mulai Eksplorasi <ArrowRight className="w-5 h-5" />
             </a>
           </div>
