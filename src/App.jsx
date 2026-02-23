@@ -6,6 +6,9 @@ import PusatLegislasi from './pages/undangundang';
 import TindakLanjutAspirasi from './pages/tindaklanjut';
 import StrukturKomisi from './pages/strukturkomisi';
 import TentangKami from './pages/aboutUs';
+import BadanAnggaran from './pages/banggar';
+import LPJPengawasan from './pages/lpj';
+import Lapor from "./pages/lapor";
 
 function App() {
   return (
@@ -20,10 +23,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/alurpengawasan" element={<AlurPengawasan />} />
+        <Route path="/lpj" element={<LPJPengawasan />} />
         <Route path="/undang-undang" element={<PusatLegislasi />} />
         <Route path="/tindak-lanjut" element={<TindakLanjutAspirasi />} />
         <Route path="/struktur-komisi" element={<StrukturKomisi />} />
         <Route path="/aboutUs" element={<TentangKami />} />
+        <Route path="/badan-anggaran" element={<BadanAnggaran />} />
+        <Route path="/lapor" element={<Lapor />} />
       </Routes>
     </div>
   );
