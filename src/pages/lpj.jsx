@@ -23,7 +23,6 @@ const LPJPengawasan = () => {
 
   return (
     <div className="min-h-screen bg-[#F8FAFC]">
-      <Navbar />
 
       {/* Hero Section */}
       <header className="pt-24 pb-20 bg-gray-900 text-white relative overflow-hidden text-center">

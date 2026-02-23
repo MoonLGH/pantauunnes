@@ -35,32 +35,7 @@ const StrukturKomisi = () => {
   return (
     <div className="min-h-screen bg-[#F8FAFC]">
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex justify-between items-center h-20">
-            <a className="flex items-center gap-3 cursor-pointer" href="#/">
-              <div className="w-10 h-10 bg-yellow-400 rounded-xl flex items-center justify-center shadow-lg shadow-yellow-200">
-                <Activity className="text-gray-900 w-6 h-6" strokeWidth={2.5} />
-              </div>
-              <div>
-                <h1 className="font-extrabold text-xl leading-tight text-gray-900 tracking-tight">Pantau DPMKM</h1>
-                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Universitas Negeri Semarang</p>
-              </div>
-            </a>
-            <div className="hidden md:flex items-center gap-8">
-              <a className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" href="#/">Beranda</a>
-              <a className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" href="#/aboutUs">Tentang Kami</a>
-              <a className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" href="#/alurpengawasan">Alur Pengawasan</a>
-              <a className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" href="#/undang-undang">Undang-Undang</a>
-              <a className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" href="#/tindak-lanjut">Tindak Lanjut</a>
-              <a className="text-sm font-semibold text-gray-900 hover:text-yellow-600 transition-colors" href="#/struktur-komisi">Struktur Komisi</a>
-            </div>
-            <button className="hidden md:flex bg-gray-900 hover:bg-gray-800 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all items-center gap-2">
-              <Megaphone className="w-4 h-4" /> Lapor Aspirasi!
-            </button>
-          </div>
-        </div>
-      </nav>
+
 
       {/* Hero Header */}
       <section className="pt-32 pb-24 bg-gray-900 text-white relative overflow-hidden text-center">

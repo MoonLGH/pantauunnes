@@ -22,7 +22,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/alurpengawasan" element={<AlurPengawasan />} />
+        <Route path="/alur-pengawasan" element={<AlurPengawasan />} />
         <Route path="/lpj" element={<LPJPengawasan />} />
         <Route path="/undang-undang" element={<PusatLegislasi />} />
         <Route path="/tindak-lanjut" element={<TindakLanjutAspirasi />} />

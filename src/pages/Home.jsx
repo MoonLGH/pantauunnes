@@ -122,7 +122,7 @@ const PantauDPMKM = () => {
             desc="Produk hukum dan regulasi Keluarga Mahasiswa UNNES." 
           />
           <ServiceCard 
-            href="#/alurpengawasan" 
+            href="#/alur-pengawasan" 
             icon={<Activity className="text-yellow-700 group-hover:text-white" />} 
             title="Alur Pengawasan" 
             desc="Mekanisme dan tata cara pengawasan organisasi kemahasiswaan." 
